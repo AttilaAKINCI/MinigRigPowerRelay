@@ -1,1 +1,1 @@
-# MinigRigPowerRelay
+# MinigRigPowerSwitchRelay
