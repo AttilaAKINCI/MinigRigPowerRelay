@@ -2,21 +2,21 @@
 This project is developed in order to ensure continuous power delivery for mining rigs. 
 
 ## Motivation
-Minig rigs contains several GPUs in order to mine mainly Etherium. Rigs should be online as much as possible to provide maximum amount of shares. 
-In case of power loss (electricity cut offs), minig rigs goes offline and need to be triggered manually or via network triggers. 
+Mining rigs contains several GPUs in order to mine mainly Etherium. Rigs should be online as much as possible to provide maximum amount of shares. 
+In case of power loss (electricity cut offs), mining rigs goes offline and need to be triggered manually or via network triggers. 
 
 Appling a Network triggers brings different questions with it. Especially in security (static ips etc.). If you are searching for an automation 
-Minig Rig Power Switch Relay can provide a basic, usefull and hardware based solution for you.  
+Mining Rig Power Switch Relay can provide a basic, usefull and hardware based solution for you.  
 
 ## Work Case
 Arduino starts with initial power and starts to listen PSU power as input. 
 If system has power and PSU not working, Arduino triggers Motherboards power switch and PC starts accordingly.
 Arduino checks that situation for each 30 seconds and power up rig in case of rig is shutted down for any reason.
 
-When minig rig become online, minig process automatically starts. 
+When mining rig become online, mining process automatically starts. 
 
 ## Circuit Design
-<img src="https://github.com/AttilaAKINCI/MinigRigPowerSwitchRelay/blob/master/images/rigrelay_bb.jpg" width="1000">
+<img src="https://github.com/AttilaAKINCI/MiningRigPowerSwitchRelay/blob/master/images/rigrelay_bb.jpg" width="1000">
 
 ## Used Components
 * [Arduino Pro Mini](https://www.aliexpress.com/item/32821902128.html?spm=a2g0o.productlist.0.0.306729d40kzlDs&aem_p4p_detail=202106220039092369460712652000029269865)
