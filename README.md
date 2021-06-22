@@ -11,7 +11,7 @@ Minig Rig Power Switch Relay can provide a basic, usefull and hardware based sol
 ## Work Case
 Arduino starts with initial power and starts to listen PSU power as input. 
 If system has power and PSU not working, Arduino triggers Motherboards power switch and PC starts accordingly.
-Arduino checks that case for each 30 seconds and starts mining rig if it is shutted down for any reason.
+Arduino checks that situation for each 30 seconds and power up rig in case of rig is shutted down for any reason.
 
 When minig rig become online, minig process automatically starts. 
 
