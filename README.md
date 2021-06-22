@@ -1,4 +1,4 @@
-# Minig Rig Power Switch Relay
+# Mining Rig Power Switch Relay
 This project is developed in order to ensure continuous power delivery for mining rigs. 
 
 ## Motivation
