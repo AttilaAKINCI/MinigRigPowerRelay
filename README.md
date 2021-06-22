@@ -1,7 +1,7 @@
 # Minig Rig Power Switch Relay
 This project is developed in order to ensure continuous power delivery for mining rigs. 
 
-## Work Flow
+## Motivation
 Minig rigs contains several GPUs in order to mine mainly Etherium. Rigs should be online as much as possible to provide maximum amount of shares. 
 In case of power loss (electricity cut offs), minig rigs goes offline and need to be triggered manually or via network triggers. 
 
